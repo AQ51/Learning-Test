@@ -1,0 +1,49 @@
+
+.green, h1 {
+			color: green;
+		}
+		h2.purple {
+			color: rgb(153, 51, 153);
+			text-align: center;
+		}
+		h1#top{
+			text-align: center;
+			font-style: bold;
+			font-style: italic;
+			margin-right: auto;
+			margin-left: auto;
+		}
+		#section1 > span {
+			color: blue;
+		}
+		#section2 li {
+			background-color: green;
+			width: 200px;
+		}
+		#menu a:link, #menu a:visited{
+			text-decoration: none;
+			background-color: blue;
+			border: 2px solid black;
+			color: white;
+			display: block;
+			width: 100px;
+			margin-bottom: 1.5px;
+			margin-left:auto;
+			margin-right:auto;
+			padding-top: 2px;
+			padding-bottom: : 2px;
+		}
+		#menu li:nth-child(odd) > a:link, #menu li:nth-child(odd) > a:visited{
+			background-color: purple;
+		}
+
+		.center li{
+			text-align: center;
+			list-style: none;
+		}
+		#menu a:hover, #menu a:active{
+			background-color: red;
+		}
+		#menu li:nth-child(odd) > a:hover, #menu li:nth-child(odd) > a:active{
+			background-color: red;
+		}
